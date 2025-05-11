@@ -11,13 +11,13 @@ import { number, string } from "zod";
 
 const DEFAULT_TITLE = "select the most performing thumbnail";
 
-const s3Client = new S3Client({
-    credentials: {
-        accessKeyId: "AKIAU6GDZFM2PRMKMJAL",
-        secretAccessKey: "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"
-    },
-    region : "ap-south-1"
-})
+// const s3Client = new S3Client({
+//     credentials: {
+//         accessKeyId: "",
+//         secretAccessKey: ""
+//     },
+//     region : "ap-south-1"
+// })
 
 const router = Router();
 
